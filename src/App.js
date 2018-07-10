@@ -4,6 +4,9 @@ import './App.css';
 import InlineStyleModule from './components/inline-style-module/inlineStyleModule';
 import JSS from './components/css-in-js/JSS';
 import RadiumButton from './components/css-in-js/Radium';
+import CSSModule from './components/css-modules/CSSModule';
+import StyledComponent from './components/styled-components/styled-component';
+import EmotionComponent from './components/emotion/emotion-component';
 
 class App extends Component {
   render() {
@@ -17,6 +20,9 @@ class App extends Component {
           <InlineStyleModule />
           <JSS />
           <RadiumButton>radium</RadiumButton>
+          <CSSModule />
+          <StyledComponent />
+          <EmotionComponent />
         </div>
       </div>
     );

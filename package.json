@@ -3,16 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "emotion": "^9.2.5",
     "radium": "^0.24.0",
     "react": "^16.4.1",
+    "react-app-rewired": "^1.5.2",
     "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.5",
     "react-jss": "^8.6.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "react-start": "react-app-rewired start",
+    "react-build": "react-app-rewired build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "react-app-rewire-css-modules": "codebandits/react-app-rewire-css-modules",
+    "sass-loader": "^7.0.3"
   }
 }
